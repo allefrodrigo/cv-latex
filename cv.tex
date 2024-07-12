@@ -1,0 +1,255 @@
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\input{glyphtounicode}
+
+
+%----------FONT OPTIONS----------
+% sans-serif
+% \usepackage[sfdefault]{FiraSans}
+% \usepackage[sfdefault]{roboto}
+% \usepackage[sfdefault]{noto-sans}
+% \usepackage[default]{sourcesanspro}
+
+% serif
+% \usepackage{CormorantGaramond}
+% \usepackage{charter}
+
+
+\pagestyle{fancy}
+\fancyhf{} % clear all header and footer fields
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+% Adjust margins
+\addtolength{\oddsidemargin}{-0.5in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1in}
+\addtolength{\topmargin}{-.5in}
+\addtolength{\textheight}{1.0in}
+
+\urlstyle{same}
+
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+% Sections formatting
+\titleformat{\section}{
+  \vspace{-4pt}\scshape\raggedright\large
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+% Ensure that generate pdf is machine readable/ATS parsable
+\pdfgentounicode=1
+
+%-------------------------
+% Custom commands
+\newcommand{\resumeItem}[1]{
+  \item\small{
+    {#1 \vspace{-2pt}}
+  }
+}
+
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{0.97\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & #2 \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubSubheading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \textit{\small#1} & \textit{\small #2} \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{0.97\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & #2 \\
+    \end{tabular*}\vspace{-7pt}
+}
+
+\newcommand{\resumeSubItem}[1]{\resumeItem{#1}\vspace{-4pt}}
+
+\renewcommand\labelitemii{$\vcenter{\hbox{\tiny$\bullet$}}$}
+
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.15in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+
+%-------------------------------------------
+%%%%%%  RESUME STARTS HERE  %%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+\begin{document}
+
+%----------HEADING----------
+% \begin{tabular*}{\textwidth}{l@{\extracolsep{\fill}}r}
+%   \textbf{\href{http://sourabhbajaj.com/}{\Large Sourabh Bajaj}} & Email : \href{mailto:sourabh@sourabhbajaj.com}{sourabh@sourabhbajaj.com}\\
+%   \href{http://sourabhbajaj.com/}{http://www.sourabhbajaj.com} & Mobile : +1-123-456-7890 \\
+% \end{tabular*}
+
+\begin{center}
+    \textbf{\Huge \scshape Allef Rodrigo Schmidt} \\ \vspace{1pt}
+     \href{mailto:x@x.com}{\underline{dev.allefschmidt@gmail.com}} $|$ 
+    \href{https://linkedin.com/in/...}{\underline{https://www.linkedin.com/in/schmidt-maker/}} $|$
+    \href{https://github.com/...}{\underline{https://github.com/allefrodrigo}}
+\end{center}
+
+
+
+
+%-----------EXPERIENCE-----------
+\section{Experiência}
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Game Developer}{Março 2024 -- Presente}
+      {Apetit Studios}{}
+      \resumeItemListStart
+        \resumeItem{Participação em todas as etapas de produção de jogos, do design ao lançamento.}
+        \resumeItem{Desenvolvimento de jogos 2D com Godot Engine.}
+        \resumeItem{Integração de efeitos sonoros e trilhas para melhorar a imersão.}
+        \resumeItem{Otimização de performance para várias plataformas.}
+        \resumeItem{Coordenação de testes beta e ajustes de mecânicas.}
+        \resumeItem{Documentação detalhada do desenvolvimento.}
+        \resumeItem{Colaboração com equipes multidisciplinares.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+
+%-----------EXPERIENCE-----------
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Desenvolvedor Fullstack}{Setembro 2021 -- Presente}
+      {IDSOFT}{}
+      \resumeItemListStart
+        \resumeItem{Análise de requisitos e programação para Android e iOS usando React Native.}
+        \resumeItem{Desenvolvimento de aplicações mobile focadas em desempenho e usabilidade.}
+        \resumeItem{Melhorias de desempenho em sistemas web com React.js (front-end) e Node.js (back-end).}
+        \resumeItem{Manutenção de APIs RESTful e integração com bancos de dados SQL e NoSQL (SQL, MongoDB).}
+        \resumeItem{Uso de Git para versionamento e colaboração.}
+        \resumeItem{Desenvolvimento com Vite para otimização de performance.}
+        \resumeItem{Correções e ajustes para atender às necessidades dos usuários/clientes.}
+      \resumeItemListEnd
+      
+  \resumeSubHeadingListEnd
+      
+  \resumeSubHeadingListStart
+
+    \resumeSubheading
+      {Desenvolvedor Frontend}{Agosto 2021 -- Junho 2022}
+      {Núcleo Acesso à Terra Urbanizada}{}
+      \resumeItemListStart
+        \resumeItem{Construção da estética da plataforma digital REURB usando Vue.js para melhorar a experiência do usuário.}
+        \resumeItem{Desenvolvimento do módulo de visualização e interação dinâmica de mapas com Leaflet.}
+        \resumeItem{Criação de um dashboard para monitoramento de dados em tempo real, otimizando processos e monitorando o desempenho do projeto.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+
+       \resumeSubheading
+      {Desenvolvedor Frontend}{Jun 2021 -- Jan 2022}
+      {Agrícola Famosa S/A}{}
+      \resumeItemListStart
+        \resumeItem{Manutenção e melhorias em aplicações existentes, focando em balanças utilizando microcomputador Raspberry Pi.}
+        \resumeItem{Aprimoramento do design da aplicação para melhorar a experiência do usuário.}
+        \resumeItem{Implementação de técnicas para otimizar o consumo e envio de dados via API REST.}
+        \resumeItem{Trabalho com ferramentas como React.js, Node.js, e Git para desenvolvimento e versionamento.}
+      \resumeItemListEnd
+        \resumeSubHeadingListEnd
+  \resumeSubHeadingListStart
+       \resumeSubheading
+      {Product Manager}{Jan 2019 -- Jul 2021}
+      {Maker Educ}{}
+      \resumeItemListStart
+        \resumeItem{Implementação de novas tecnologias para obter vantagem competitiva no mercado.}
+      
+        \resumeItem{Desenvolvimento de aplicações mobile usando React Native.}
+        \resumeItem{Utilização de Git para versionamento e colaboração.}
+        \resumeItem{Programação com Python para funcionalidades específicas do aplicativo.}
+      \resumeItemListEnd
+  \resumeSubHeadingListEnd            
+
+  
+
+%-----------PROJECTS-----------
+\section{Principais Projetos}
+    \resumeSubHeadingListStart
+      \resumeProjectHeading
+          {\textbf{MakerApp,}{ Maker Educ} $|$ \emph{React Native, Git, Python, Typescript}}{}
+          \resumeItemListStart
+            \resumeItem{Criação do aplicativo Maker Educ, um aplicativo multiplataforma que permite a programação do microcontrolador Atmega328P diretamente do celular do estudante, eliminando a necessidade de um computador para aulas de programação/robótica.}
+          \resumeItemListEnd
+          
+      \resumeProjectHeading
+           {\textbf{Plataforma Monitora Caju,}{ Embrapa - CE} $|$ \emph{React Native, Typescript, Next.js, MongoDB}}{}
+          \resumeItemListStart
+            \resumeItem{Aplicativo desenvolvido para ajudar produtores de caju a cuidar de suas plantações, prevenindo doenças e aumentando a produção.}
+            \resumeItem{O sistema inclui métodos CRUD, autenticação, mapas de calor mostrando a incidência de doenças no mapa e análise de dados com dashboard.}
+          \resumeItemListEnd
+          
+              \resumeProjectHeading
+          {\textbf{Plataforma de Gestão de Construção,}{ Pinte Pinturas } $|$ \emph{Typescript}}{}
+          \resumeItemListStart
+            \resumeItem{Desenvolvimento de uma plataforma web que melhorou significativamente a eficiência organizacional de uma grande empresa de construção, substituindo um sistema baseado em Excel.}
+            \resumeItem{Sistema permitiu acompanhamento em tempo real, geração eficiente de relatórios e acesso a dashboards dinâmicos para insights instantâneos.}
+            \resumeItem{Transformação que otimizou processos, gerenciou recursos de forma mais eficaz, assegurou conclusão oportuna dos projetos e facilitou a tomada de decisões informadas.}
+          \resumeItemListEnd
+          
+         \resumeProjectHeading
+     {\textbf{Plataforma Digital REURB,} {Governo Federal} $|$ \emph{Vue.js, Quasar UI, Axios}}{}
+          \resumeItemListStart
+         \resumeItem{Desenvolvimento do módulo de visualização e interação dinâmica de mapas utilizando Leaflet.}
+            \resumeItem{Criação de um dashboard em Vue.js para monitoramento de dados em tempo real, otimizando processos e monitorando o desempenho e crescimento do projeto.}
+            \resumeItem{Sistema com métodos CRUD, autenticação, mapas + GeoJSON, gráficos e dashboards.}
+          \resumeItemListEnd
+    \resumeSubHeadingListEnd
+
+
+%-----------EDUCATION-----------
+\section{Educação}
+  \resumeSubHeadingListStart
+    \resumeSubheading
+      {Universidade Federal Rural do Semi-Árido}{Mossoró, RN}
+      {Bacharelado em Ciência da Computação}{2015 -- 2022}
+    \resumeSubheading
+      {Instituto Metrópole Digital - IMD/UFRN}{Natal, RN}
+      {Desenvolvedor Web}{2020 -- 2021}
+      \resumeSubheading
+      {EF SET}{}
+      {Teste de Proficência - Inglês - C1}{}
+  \resumeSubHeadingListEnd
+  
+%-----------TECHNICAL SKILLS-----------
+\section{Habilidades técnicas}
+ \begin{itemize}[leftmargin=0.15in, label={}]
+    \small{\item{
+     \textbf{Linguagens}{: JavaScript, Typescript, Angular, Python} \\
+     \textbf{Frameworks}{: React, React Native, Vue.js, Next.js, Node.js} \\
+     \textbf{Developer Tools}{: Git, Docker, Vite, TravisCI, Postman, Figma} \\
+     \textbf{Bibliotecas}{: Axios, Leaflet, pandas, NumPy, Matplotlib, Redux, Lodash, Moment.js, Express.js, Chart.js, D3.js} \\
+     \textbf{Banco de dados}{: PostgreSQL, MongoDB}
+    }}
+ \end{itemize}
+
+
+%-------------------------------------------
+\end{document}
